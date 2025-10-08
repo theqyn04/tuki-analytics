@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6a0b782-47a5-4100-89b1-f77c5bac5a62" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-get-data/get-data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python-get-data/get-data.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +62,7 @@
       <workItem from="1759921170067" duration="2425000" />
       <workItem from="1759923624497" duration="511000" />
       <workItem from="1759924187879" duration="1123000" />
+      <workItem from="1759929485481" duration="706000" />
     </task>
     <servers />
   </component>
