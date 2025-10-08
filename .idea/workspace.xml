@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6a0b782-47a5-4100-89b1-f77c5bac5a62" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snowflake-create-wh/create-wh.sql" beforeDir="false" afterPath="$PROJECT_DIR$/snowflake-create-wh/create-wh.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <updated>1759837409360</updated>
       <workItem from="1759837410623" duration="1773000" />
       <workItem from="1759839218099" duration="1214000" />
-      <workItem from="1759921170067" duration="642000" />
+      <workItem from="1759921170067" duration="1562000" />
     </task>
     <servers />
   </component>
