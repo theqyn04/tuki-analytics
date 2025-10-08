@@ -1,0 +1,8 @@
+build
+dbt_youtube
+dbt_youtube_dag
+imgs
+logs
+power-bi-dashboard
+python-get-data
+snowflake-create-wh

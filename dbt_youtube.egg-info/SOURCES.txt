@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+dbt_youtube.egg-info/PKG-INFO
+dbt_youtube.egg-info/SOURCES.txt
+dbt_youtube.egg-info/dependency_links.txt
+dbt_youtube.egg-info/requires.txt
+dbt_youtube.egg-info/top_level.txt
