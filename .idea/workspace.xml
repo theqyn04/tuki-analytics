@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6a0b782-47a5-4100-89b1-f77c5bac5a62" name="Changes" comment="" />
+    <list default="true" id="c6a0b782-47a5-4100-89b1-f77c5bac5a62" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_youtube/packages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_youtube/packages.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SQL File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,28 +27,63 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="33jjWtcxes2pzO6vTyyNhCkYa7h" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/The Quyen/Desktop/tuki-analytics&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/The Quyen/Desktop/tuki-analytics/dbt_youtube/seeds",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\The Quyen\Desktop\tuki-analytics\dbt_youtube\seeds" />
+    </key>
+  </component>
+  <component name="RunManager" selected="dbt.Run dbt build">
+    <configuration name="Run dbt build" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="build" />
+      <module name="tuki-analytics" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt debug" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="debug" />
+      <module name="tuki-analytics" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt list" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="list" />
+      <module name="tuki-analytics" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt run" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="run" />
+      <module name="tuki-analytics" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt test" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="test" />
+      <module name="tuki-analytics" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,6 +105,7 @@
       <workItem from="1759923624497" duration="511000" />
       <workItem from="1759924187879" duration="1123000" />
       <workItem from="1759929485481" duration="1934000" />
+      <workItem from="1760014432517" duration="1377000" />
     </task>
     <servers />
   </component>

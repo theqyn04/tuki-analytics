@@ -1,0 +1,371 @@
+[0m20:12:15.405079 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002919F578790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291A0655510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291A07C6980>]}
+
+
+============================== 20:12:15.411086 | c7601d64-051a-484c-a8b2-c639d3a5bf67 ==============================
+[0m20:12:15.411086 [info ] [MainThread]: Running with dbt=1.10.13
+[0m20:12:15.412098 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'False', 'quiet': 'False', 'printer_width': '80', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\The Quyen\\Desktop\\tuki-analytics\\dbt_youtube\\logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\The Quyen\\Desktop\\tuki-analytics\\dbt_youtube', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m20:12:18.533428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c7601d64-051a-484c-a8b2-c639d3a5bf67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291C14A11B0>]}
+[0m20:12:18.590974 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c7601d64-051a-484c-a8b2-c639d3a5bf67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291C14E31C0>]}
+[0m20:12:18.593407 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m20:12:19.073273 [error] [MainThread]: Encountered an error:
+Compilation Error
+  dbt found 1 package(s) specified in packages.yml, but only 0 package(s) installed in dbt_packages. Run "dbt deps" to install package dependencies.
+[0m20:12:19.075275 [debug] [MainThread]: Command `dbt run` failed at 20:12:19.075275 after 3.75 seconds
+[0m20:12:19.075275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002919F578790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291C162AF20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291C1629210>]}
+[0m20:12:19.076317 [debug] [MainThread]: Flushing usage events
+[0m20:12:20.281561 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:13:02.750398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248FA29BA00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248FB5A3A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248FB5A24A0>]}
+
+
+============================== 20:13:02.754397 | d8772483-b5a0-47bc-a75e-caae09e1a30e ==============================
+[0m20:13:02.754397 [info ] [MainThread]: Running with dbt=1.10.13
+[0m20:13:02.754397 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt deps', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'log_path': 'C:\\Users\\The Quyen\\Desktop\\tuki-analytics\\dbt_youtube\\logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\The Quyen\\Desktop\\tuki-analytics\\dbt_youtube', 'static_parser': 'True', 'write_json': 'True'}
+[0m20:13:03.024324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd8772483-b5a0-47bc-a75e-caae09e1a30e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248FB72BAF0>]}
+[0m20:13:03.066406 [debug] [MainThread]: Set downloads directory='C:\Users\THEQUY~1\AppData\Local\Temp\dbt-downloads-gue_ar0r'
+[0m20:13:03.067795 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m20:13:03.207063 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m20:13:03.208075 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m20:13:03.250057 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m20:13:03.256070 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m20:13:03.988969 [info ] [MainThread]: Installed from version 1.1.1
+[0m20:13:03.989969 [info ] [MainThread]: Updated version available: 1.3.1
+[0m20:13:03.989969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'd8772483-b5a0-47bc-a75e-caae09e1a30e', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248FA640820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248FB87B790>]}
+[0m20:13:03.989969 [info ] [MainThread]: 
+[0m20:13:03.991464 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m20:13:03.992885 [debug] [MainThread]: Command `dbt deps` succeeded at 20:13:03.992885 after 1.33 seconds
+[0m20:13:03.994258 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248FA29BA00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248FB72BAF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248FB5A1720>]}
+[0m20:13:03.994258 [debug] [MainThread]: Flushing usage events
+[0m20:13:05.200935 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:13:12.039155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E19A301C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E1AC3FFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E1AC3C0D0>]}
+
+
+============================== 20:13:12.042443 | b959480c-a555-47e2-927e-58eff28d2af2 ==============================
+[0m20:13:12.042443 [info ] [MainThread]: Running with dbt=1.10.13
+[0m20:13:12.043455 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\The Quyen\\Desktop\\tuki-analytics\\dbt_youtube', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\The Quyen\\Desktop\\tuki-analytics\\dbt_youtube\\logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m20:13:13.027430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E17863A60>]}
+[0m20:13:13.088938 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E1ACA11B0>]}
+[0m20:13:13.090533 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m20:13:13.504414 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m20:13:13.505416 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:13:13.505416 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E3BACF3D0>]}
+[0m20:13:16.903558 [warn ] [MainThread]: [[33mWARNING[0m][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `relationships`. Arguments to generic tests
+should be nested under the `arguments` property.`
+[0m20:13:16.904558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E3D5C2EC0>]}
+[0m20:13:17.161157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E3D694130>]}
+[0m20:13:17.302698 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\The Quyen\Desktop\tuki-analytics\dbt_youtube\target\manifest.json
+[0m20:13:17.320554 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\The Quyen\Desktop\tuki-analytics\dbt_youtube\target\semantic_manifest.json
+[0m20:13:17.354103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E3D6AA350>]}
+[0m20:13:17.355583 [info ] [MainThread]: Found 13 models, 2 snapshots, 4 seeds, 45 data tests, 606 macros
+[0m20:13:17.357584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E3D6AA170>]}
+[0m20:13:17.360626 [info ] [MainThread]: 
+[0m20:13:17.361634 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:13:17.362975 [info ] [MainThread]: 
+[0m20:13:17.362975 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m20:13:17.371265 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_TUKI_DB'
+[0m20:13:19.625663 [debug] [ThreadPool]: Using snowflake connection "list_TUKI_DB"
+[0m20:13:19.626663 [debug] [ThreadPool]: On list_TUKI_DB: show terse schemas in database TUKI_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_youtube", "target_name": "dev", "connection_name": "list_TUKI_DB"} */
+[0m20:13:19.627663 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:13:23.798642 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 4.172 seconds
+[0m20:13:23.803151 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_TUKI_DB_YOUTUBE_SNAP'
+[0m20:13:23.820302 [debug] [ThreadPool]: Using snowflake connection "list_TUKI_DB_YOUTUBE_SNAP"
+[0m20:13:23.820302 [debug] [ThreadPool]: On list_TUKI_DB_YOUTUBE_SNAP: show objects in TUKI_DB.YOUTUBE_SNAP
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_youtube", "target_name": "dev", "connection_name": "list_TUKI_DB_YOUTUBE_SNAP"} */;
+[0m20:13:23.821301 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:13:26.685820 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf9859-3201-ff2c-0010-24ba00043a2a
+[0m20:13:26.685820 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 002043 (02000): SQL compilation error:
+Object does not exist, or operation cannot be performed.
+[0m20:13:26.686820 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_relations_without_caching
+[0m20:13:26.686820 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m20:13:26.687820 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_TUKI_DB_YOUTUBE_SNAP, now list_TUKI_DB_TUKI_DEV_SCHEMA)
+[0m20:13:26.690820 [debug] [ThreadPool]: Using snowflake connection "list_TUKI_DB_TUKI_DEV_SCHEMA"
+[0m20:13:26.690820 [debug] [ThreadPool]: On list_TUKI_DB_TUKI_DEV_SCHEMA: show objects in TUKI_DB.TUKI_DEV_SCHEMA
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_youtube", "target_name": "dev", "connection_name": "list_TUKI_DB_TUKI_DEV_SCHEMA"} */;
+[0m20:13:26.894907 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.203 seconds
+[0m20:13:26.896906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E1791FFA0>]}
+[0m20:13:26.927271 [debug] [Thread-1 (]: Began running node model.dbt_youtube.br_channels
+[0m20:13:26.928272 [info ] [Thread-1 (]: 1 of 13 START sql view model TUKI_DEV_SCHEMA.br_channels ....................... [RUN]
+[0m20:13:26.929271 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.dbt_youtube.br_channels'
+[0m20:13:26.930270 [debug] [Thread-1 (]: Began compiling node model.dbt_youtube.br_channels
+[0m20:13:26.940141 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_youtube.br_channels"
+[0m20:13:26.942544 [debug] [Thread-1 (]: Began executing node model.dbt_youtube.br_channels
+[0m20:13:26.967219 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_youtube.br_channels"
+[0m20:13:26.969417 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_youtube.br_channels"
+[0m20:13:26.970680 [debug] [Thread-1 (]: On model.dbt_youtube.br_channels: create or replace   view TUKI_DB.TUKI_DEV_SCHEMA.br_channels
+  
+  
+  
+  
+  as (
+    
+
+select
+  channel_id,
+  title,
+  customUrl,
+  publishedAt::timestamp as "PUBLISHED_AT",
+  country,
+  subscriberCount::bigint as "SUBSCRIBER_COUNT",
+  viewCount::bigint as "VIEW_COUNT",
+  videoCount::bigint as "VIDEO_COUNT" ,
+  thumbnail_high AS "CHANNEL_THUMBNAIL_URL"
+from TUKI_DB.TUKI_DEV_SCHEMA.channels
+  )
+/* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_youtube", "target_name": "dev", "node_id": "model.dbt_youtube.br_channels"} */;
+[0m20:13:26.970680 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:13:29.744292 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf9859-3201-ffcf-0010-24ba00046076
+[0m20:13:29.745292 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (42S02): SQL compilation error:
+Object 'TUKI_DB.TUKI_DEV_SCHEMA.CHANNELS' does not exist or not authorized.
+[0m20:13:29.764905 [debug] [Thread-1 (]: Database Error in model br_channels (models\bronze\br_channels.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.CHANNELS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_channels.sql
+[0m20:13:29.767905 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E1984DCC0>]}
+[0m20:13:29.767905 [error] [Thread-1 (]: 1 of 13 ERROR creating sql view model TUKI_DEV_SCHEMA.br_channels .............. [[31mERROR[0m in 2.84s]
+[0m20:13:29.768911 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.br_channels
+[0m20:13:29.769906 [debug] [Thread-1 (]: Began running node model.dbt_youtube.br_playlist_items
+[0m20:13:29.770905 [debug] [Thread-4 (]: Marking all children of 'model.dbt_youtube.br_channels' to be skipped because of status 'error'.  Reason: Database Error in model br_channels (models\bronze\br_channels.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.CHANNELS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_channels.sql.
+[0m20:13:29.769906 [info ] [Thread-1 (]: 2 of 13 START sql view model TUKI_DEV_SCHEMA.br_playlist_items ................. [RUN]
+[0m20:13:29.772905 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_youtube.br_channels, now model.dbt_youtube.br_playlist_items)
+[0m20:13:29.772905 [debug] [Thread-1 (]: Began compiling node model.dbt_youtube.br_playlist_items
+[0m20:13:29.777906 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_youtube.br_playlist_items"
+[0m20:13:29.778905 [debug] [Thread-1 (]: Began executing node model.dbt_youtube.br_playlist_items
+[0m20:13:29.781913 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_youtube.br_playlist_items"
+[0m20:13:29.783914 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_youtube.br_playlist_items"
+[0m20:13:29.783914 [debug] [Thread-1 (]: On model.dbt_youtube.br_playlist_items: create or replace   view TUKI_DB.TUKI_DEV_SCHEMA.br_playlist_items
+  
+  
+  
+  
+  as (
+    
+
+
+select
+  playlistItem_id AS "PLAYLIST_ITEM_ID",
+  playlist_id,
+  video_id,
+  video_title as "VIDEO_TITLE_IN_PLAYLIST",
+  video_desc as "VIDEO_DESC_IN_PLAYLIST",
+  try_to_timestamp_ntz(added_to_playlist_at) as "ADDED_TO_PLAYLIST_AT",
+  try_to_timestamp_ntz(video_published_at) as "VIDEO_PUBLISHED_AT",
+  try_to_number(position_in_playlist) as "POSITION_IN_PLAYLIST",
+  snippet__thumbnails__maxres__url AS "VIDEO_THUMBNAIL_URL_IN_PLAYLIST",
+  channel_id
+from TUKI_DB.TUKI_DEV_SCHEMA.playlist_items
+  )
+/* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_youtube", "target_name": "dev", "node_id": "model.dbt_youtube.br_playlist_items"} */;
+[0m20:13:29.965501 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf9859-3201-ff6c-0010-24ba00044066
+[0m20:13:29.966502 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (42S02): SQL compilation error:
+Object 'TUKI_DB.TUKI_DEV_SCHEMA.PLAYLIST_ITEMS' does not exist or not authorized.
+[0m20:13:29.968501 [debug] [Thread-1 (]: Database Error in model br_playlist_items (models\bronze\br_playlist_items.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.PLAYLIST_ITEMS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_playlist_items.sql
+[0m20:13:29.969502 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E3BFB7430>]}
+[0m20:13:29.970501 [error] [Thread-1 (]: 2 of 13 ERROR creating sql view model TUKI_DEV_SCHEMA.br_playlist_items ........ [[31mERROR[0m in 0.20s]
+[0m20:13:29.974501 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.br_playlist_items
+[0m20:13:29.974501 [debug] [Thread-1 (]: Began running node model.dbt_youtube.br_playlists
+[0m20:13:29.976501 [debug] [Thread-4 (]: Marking all children of 'model.dbt_youtube.br_playlist_items' to be skipped because of status 'error'.  Reason: Database Error in model br_playlist_items (models\bronze\br_playlist_items.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.PLAYLIST_ITEMS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_playlist_items.sql.
+[0m20:13:29.975501 [info ] [Thread-1 (]: 3 of 13 START sql view model TUKI_DEV_SCHEMA.br_playlists ...................... [RUN]
+[0m20:13:29.978502 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_youtube.br_playlist_items, now model.dbt_youtube.br_playlists)
+[0m20:13:29.978502 [debug] [Thread-1 (]: Began compiling node model.dbt_youtube.br_playlists
+[0m20:13:29.984500 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_youtube.br_playlists"
+[0m20:13:29.989162 [debug] [Thread-1 (]: Began executing node model.dbt_youtube.br_playlists
+[0m20:13:29.995312 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_youtube.br_playlists"
+[0m20:13:29.996313 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_youtube.br_playlists"
+[0m20:13:29.998305 [debug] [Thread-1 (]: On model.dbt_youtube.br_playlists: create or replace   view TUKI_DB.TUKI_DEV_SCHEMA.br_playlists
+  
+  
+  
+  
+  as (
+    
+
+
+select
+    playlist_id
+    , playlist_title
+    , playlist_desc
+    , published_at::timestamp AS "PUBLISHED_AT"
+    , channel_id
+    , thumb_high AS "PLAYLIST_THUMBNAIL_URL"
+    , item_count::bigint AS "ITEM_COUNT"
+from TUKI_DB.TUKI_DEV_SCHEMA.playlists
+  )
+/* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_youtube", "target_name": "dev", "node_id": "model.dbt_youtube.br_playlists"} */;
+[0m20:13:30.123522 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf9859-3201-ff2c-0010-24ba00043a2e
+[0m20:13:30.123522 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (42S02): SQL compilation error:
+Object 'TUKI_DB.TUKI_DEV_SCHEMA.PLAYLISTS' does not exist or not authorized.
+[0m20:13:30.125522 [debug] [Thread-1 (]: Database Error in model br_playlists (models\bronze\br_playlists.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.PLAYLISTS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_playlists.sql
+[0m20:13:30.125522 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E1984DCC0>]}
+[0m20:13:30.126522 [error] [Thread-1 (]: 3 of 13 ERROR creating sql view model TUKI_DEV_SCHEMA.br_playlists ............. [[31mERROR[0m in 0.15s]
+[0m20:13:30.127521 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.br_playlists
+[0m20:13:30.128522 [debug] [Thread-1 (]: Began running node model.dbt_youtube.br_video_stats
+[0m20:13:30.128522 [debug] [Thread-4 (]: Marking all children of 'model.dbt_youtube.br_playlists' to be skipped because of status 'error'.  Reason: Database Error in model br_playlists (models\bronze\br_playlists.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.PLAYLISTS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_playlists.sql.
+[0m20:13:30.129523 [info ] [Thread-1 (]: 4 of 13 START sql view model TUKI_DEV_SCHEMA.br_video_stats .................... [RUN]
+[0m20:13:30.129523 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_youtube.br_playlists, now model.dbt_youtube.br_video_stats)
+[0m20:13:30.130869 [debug] [Thread-1 (]: Began compiling node model.dbt_youtube.br_video_stats
+[0m20:13:30.134133 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_youtube.br_video_stats"
+[0m20:13:30.135134 [debug] [Thread-1 (]: Began executing node model.dbt_youtube.br_video_stats
+[0m20:13:30.139038 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_youtube.br_video_stats"
+[0m20:13:30.140347 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_youtube.br_video_stats"
+[0m20:13:30.141345 [debug] [Thread-1 (]: On model.dbt_youtube.br_video_stats: create or replace   view TUKI_DB.TUKI_DEV_SCHEMA.br_video_stats
+  
+  
+  
+  
+  as (
+    
+
+
+with base as (
+  select
+    video_id
+    , video_title
+    , video_desc
+    , try_to_timestamp_ntz(video_published_at) as "VIDEO_PUBLISHED_AT"
+    , duration_iso8601
+    , try_to_number(view_count) as "VIEW_COUNT"
+    , try_to_number(like_count) as "LIKE_COUNT"
+    , try_to_number(comment_count) as "COMMENT_COUNT"
+    , try_to_timestamp_ntz(live_actual_start) as "LIVE_ACTUAL_START"
+    , try_to_timestamp_ntz(live_actual_end)   as "LIVE_ACTUAL_END"
+    , try_to_timestamp_ntz(live_scheduled_start) as "LIVE_SCHEDULED_START"
+  from TUKI_DB.TUKI_DEV_SCHEMA.video_stats
+),
+parsed as (
+  select
+    *,
+      coalesce(to_number(regexp_substr(duration_iso8601, '(\\d+)H', 1, 1, 'e', 1)), 0) * 3600
+    + coalesce(to_number(regexp_substr(duration_iso8601, '(\\d+)M', 1, 1, 'e', 1)), 0) * 60
+    + coalesce(to_number(regexp_substr(duration_iso8601, '(\\d+)S', 1, 1, 'e', 1)), 0)
+      as "DURATION_SECONDS"
+  from base
+)
+select * from parsed
+  )
+/* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "dbt_youtube", "target_name": "dev", "node_id": "model.dbt_youtube.br_video_stats"} */;
+[0m20:13:30.266411 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bf9859-3201-ffcf-0010-24ba0004607a
+[0m20:13:30.267403 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002003 (42S02): SQL compilation error:
+Object 'TUKI_DB.TUKI_DEV_SCHEMA.VIDEO_STATS' does not exist or not authorized.
+[0m20:13:30.269490 [debug] [Thread-1 (]: Database Error in model br_video_stats (models\bronze\br_video_stats.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.VIDEO_STATS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_video_stats.sql
+[0m20:13:30.270474 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b959480c-a555-47e2-927e-58eff28d2af2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E3D78FEE0>]}
+[0m20:13:30.270474 [error] [Thread-1 (]: 4 of 13 ERROR creating sql view model TUKI_DEV_SCHEMA.br_video_stats ........... [[31mERROR[0m in 0.14s]
+[0m20:13:30.271964 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.br_video_stats
+[0m20:13:30.273394 [debug] [Thread-1 (]: Began running node model.dbt_youtube.stg_channels
+[0m20:13:30.273394 [debug] [Thread-4 (]: Marking all children of 'model.dbt_youtube.br_video_stats' to be skipped because of status 'error'.  Reason: Database Error in model br_video_stats (models\bronze\br_video_stats.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.VIDEO_STATS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_video_stats.sql.
+[0m20:13:30.274468 [info ] [Thread-1 (]: 5 of 13 SKIP relation TUKI_DEV_SCHEMA.stg_channels ............................. [[33mSKIP[0m]
+[0m20:13:30.275547 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.stg_channels
+[0m20:13:30.277043 [debug] [Thread-1 (]: Began running node model.dbt_youtube.stg_playlists
+[0m20:13:30.277043 [info ] [Thread-1 (]: 6 of 13 SKIP relation TUKI_DEV_SCHEMA.stg_playlists ............................ [[33mSKIP[0m]
+[0m20:13:30.278407 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.stg_playlists
+[0m20:13:30.278407 [debug] [Thread-1 (]: Began running node model.dbt_youtube.stg_videos
+[0m20:13:30.279442 [info ] [Thread-1 (]: 7 of 13 SKIP relation TUKI_DEV_SCHEMA.stg_videos ............................... [[33mSKIP[0m]
+[0m20:13:30.279442 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.stg_videos
+[0m20:13:30.280865 [debug] [Thread-1 (]: Began running node model.dbt_youtube.g_channel_overview
+[0m20:13:30.280865 [info ] [Thread-1 (]: 8 of 13 SKIP relation TUKI_DEV_SCHEMA.g_channel_overview ....................... [[33mSKIP[0m]
+[0m20:13:30.282365 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.g_channel_overview
+[0m20:13:30.282365 [debug] [Thread-1 (]: Began running node model.dbt_youtube.g_content_mix
+[0m20:13:30.283613 [info ] [Thread-1 (]: 9 of 13 SKIP relation TUKI_DEV_SCHEMA.g_content_mix ............................ [[33mSKIP[0m]
+[0m20:13:30.283613 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.g_content_mix
+[0m20:13:30.283613 [debug] [Thread-1 (]: Began running node model.dbt_youtube.g_duration_distribution
+[0m20:13:30.285051 [info ] [Thread-1 (]: 10 of 13 SKIP relation TUKI_DEV_SCHEMA.g_duration_distribution ................. [[33mSKIP[0m]
+[0m20:13:30.285051 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.g_duration_distribution
+[0m20:13:30.285051 [debug] [Thread-1 (]: Began running node model.dbt_youtube.g_playlist_performance
+[0m20:13:30.286499 [info ] [Thread-1 (]: 11 of 13 SKIP relation TUKI_DEV_SCHEMA.g_playlist_performance .................. [[33mSKIP[0m]
+[0m20:13:30.286499 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.g_playlist_performance
+[0m20:13:30.286499 [debug] [Thread-1 (]: Began running node model.dbt_youtube.g_upload_heatmap
+[0m20:13:30.287932 [info ] [Thread-1 (]: 12 of 13 SKIP relation TUKI_DEV_SCHEMA.g_upload_heatmap ........................ [[33mSKIP[0m]
+[0m20:13:30.287932 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.g_upload_heatmap
+[0m20:13:30.287932 [debug] [Thread-1 (]: Began running node model.dbt_youtube.g_video_rankings
+[0m20:13:30.289392 [info ] [Thread-1 (]: 13 of 13 SKIP relation TUKI_DEV_SCHEMA.g_video_rankings ........................ [[33mSKIP[0m]
+[0m20:13:30.289392 [debug] [Thread-1 (]: Finished running node model.dbt_youtube.g_video_rankings
+[0m20:13:30.290391 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:13:30.291392 [debug] [MainThread]: Connection 'list_TUKI_DB' was left open.
+[0m20:13:30.291392 [debug] [MainThread]: On list_TUKI_DB: Close
+[0m20:13:30.419509 [debug] [MainThread]: Connection 'list_TUKI_DB_TUKI_DEV_SCHEMA' was left open.
+[0m20:13:30.420719 [debug] [MainThread]: On list_TUKI_DB_TUKI_DEV_SCHEMA: Close
+[0m20:13:30.593084 [debug] [MainThread]: Connection 'model.dbt_youtube.br_video_stats' was left open.
+[0m20:13:30.594094 [debug] [MainThread]: On model.dbt_youtube.br_video_stats: Close
+[0m20:13:30.745384 [info ] [MainThread]: 
+[0m20:13:30.748401 [info ] [MainThread]: Finished running 6 table models, 7 view models in 0 hours 0 minutes and 13.38 seconds (13.38s).
+[0m20:13:30.751402 [debug] [MainThread]: Command end result
+[0m20:13:30.791680 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\The Quyen\Desktop\tuki-analytics\dbt_youtube\target\manifest.json
+[0m20:13:30.793863 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\The Quyen\Desktop\tuki-analytics\dbt_youtube\target\semantic_manifest.json
+[0m20:13:30.800455 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\The Quyen\Desktop\tuki-analytics\dbt_youtube\target\run_results.json
+[0m20:13:30.800455 [info ] [MainThread]: 
+[0m20:13:30.801951 [info ] [MainThread]: [31mCompleted with 4 errors, 0 partial successes, and 0 warnings:[0m
+[0m20:13:30.801951 [info ] [MainThread]: 
+[0m20:13:30.803198 [error] [MainThread]: [31mFailure in model br_channels (models\bronze\br_channels.sql)[0m
+[0m20:13:30.803198 [error] [MainThread]:   Database Error in model br_channels (models\bronze\br_channels.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.CHANNELS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_channels.sql
+[0m20:13:30.804296 [info ] [MainThread]: 
+[0m20:13:30.804296 [info ] [MainThread]:   compiled code at target\compiled\dbt_youtube\models\bronze\br_channels.sql
+[0m20:13:30.805740 [info ] [MainThread]: 
+[0m20:13:30.805740 [error] [MainThread]: [31mFailure in model br_playlist_items (models\bronze\br_playlist_items.sql)[0m
+[0m20:13:30.805740 [error] [MainThread]:   Database Error in model br_playlist_items (models\bronze\br_playlist_items.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.PLAYLIST_ITEMS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_playlist_items.sql
+[0m20:13:30.807225 [info ] [MainThread]: 
+[0m20:13:30.807225 [info ] [MainThread]:   compiled code at target\compiled\dbt_youtube\models\bronze\br_playlist_items.sql
+[0m20:13:30.807225 [info ] [MainThread]: 
+[0m20:13:30.808613 [error] [MainThread]: [31mFailure in model br_playlists (models\bronze\br_playlists.sql)[0m
+[0m20:13:30.808613 [error] [MainThread]:   Database Error in model br_playlists (models\bronze\br_playlists.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.PLAYLISTS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_playlists.sql
+[0m20:13:30.809835 [info ] [MainThread]: 
+[0m20:13:30.809835 [info ] [MainThread]:   compiled code at target\compiled\dbt_youtube\models\bronze\br_playlists.sql
+[0m20:13:30.811203 [info ] [MainThread]: 
+[0m20:13:30.811203 [error] [MainThread]: [31mFailure in model br_video_stats (models\bronze\br_video_stats.sql)[0m
+[0m20:13:30.812202 [error] [MainThread]:   Database Error in model br_video_stats (models\bronze\br_video_stats.sql)
+  002003 (42S02): SQL compilation error:
+  Object 'TUKI_DB.TUKI_DEV_SCHEMA.VIDEO_STATS' does not exist or not authorized.
+  compiled code at target\run\dbt_youtube\models\bronze\br_video_stats.sql
+[0m20:13:30.812202 [info ] [MainThread]: 
+[0m20:13:30.813300 [info ] [MainThread]:   compiled code at target\compiled\dbt_youtube\models\bronze\br_video_stats.sql
+[0m20:13:30.813300 [info ] [MainThread]: 
+[0m20:13:30.814300 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=4 SKIP=9 NO-OP=0 TOTAL=13
+[0m20:13:30.814300 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingArgumentsPropertyInGenericTestDeprecation: 13 occurrences
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m20:13:30.815300 [debug] [MainThread]: Command `dbt run` failed at 20:13:30.815300 after 18.85 seconds
+[0m20:13:30.816457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E19A301C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E1ACA11B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E3BE633A0>]}
+[0m20:13:30.816457 [debug] [MainThread]: Flushing usage events
+[0m20:13:32.043645 [debug] [MainThread]: An error was encountered while trying to flush usage events
