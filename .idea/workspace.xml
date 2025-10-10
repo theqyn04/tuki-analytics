@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6a0b782-47a5-4100-89b1-f77c5bac5a62" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbt_youtube/packages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_youtube/packages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_youtube/logs/dbt.log" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_youtube/logs/dbt.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_youtube/target/graph.gpickle" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_youtube/target/graph.gpickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_youtube/target/graph_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_youtube/target/graph_summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_youtube/target/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_youtube/target/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_youtube/target/partial_parse.msgpack" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_youtube/target/partial_parse.msgpack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_youtube/target/run_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_youtube/target/run_results.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbt_youtube_dag/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +47,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "dbt.Run dbt build.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/The Quyen/Desktop/tuki-analytics/dbt_youtube/seeds",
+    "last_opened_file_path": "C:/Users/The Quyen/Desktop/tuki-analytics/dbt_youtube_dag",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +62,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\The Quyen\Desktop\tuki-analytics\dbt_youtube_dag" />
+      <recent name="C:\Users\The Quyen\Desktop\tuki-analytics\dbt_youtube_dag\dbt" />
       <recent name="C:\Users\The Quyen\Desktop\tuki-analytics\dbt_youtube\seeds" />
     </key>
   </component>
@@ -106,6 +116,7 @@
       <workItem from="1759924187879" duration="1123000" />
       <workItem from="1759929485481" duration="1934000" />
       <workItem from="1760014432517" duration="1377000" />
+      <workItem from="1760095984426" duration="5416000" />
     </task>
     <servers />
   </component>

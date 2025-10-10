@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table TUKI_DB.TUKI_DEV_SCHEMA.playlists (playlist_id text,playlist_title text,playlist_desc integer,published_at text,channel_id text,channel_title text,item_count integer,thumb_default text,thumb_medium text,thumb_high text)
+  ;
+    -- dbt seed --
+    
+            insert into TUKI_DB.TUKI_DEV_SCHEMA.playlists (playlist_id, playlist_title, playlist_desc, published_at, channel_id, channel_title, item_count, thumb_default, thumb_medium, thumb_high) values
+            (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+        
+
+;
+  

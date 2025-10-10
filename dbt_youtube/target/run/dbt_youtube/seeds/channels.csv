@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table TUKI_DB.TUKI_DEV_SCHEMA.channels (channel_id text,title text,description text,customUrl text,publishedAt timestamp without time zone,country text,thumbnail_high text,uploads_playlist text,subscriberCount integer,viewCount integer,videoCount integer)
+  ;
+    -- dbt seed --
+    
+            insert into TUKI_DB.TUKI_DEV_SCHEMA.channels (channel_id, title, description, customUrl, publishedAt, country, thumbnail_high, uploads_playlist, subscriberCount, viewCount, videoCount) values
+            (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+        
+
+;
+  
