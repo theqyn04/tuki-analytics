@@ -1,6 +1,6 @@
-# 🎯 MTP Data Analytics Project
+# 🎯 TUKI Data Analytics Project
 
-Dự án phân tích dữ liệu YouTube channel của Sơn Tùng M-TP, mô phỏng một data pipeline hoàn chỉnh từ thu thập dữ liệu đến visualization.
+Dự án phân tích dữ liệu YouTube channel của tuki(16), mô phỏng một data pipeline hoàn chỉnh từ thu thập dữ liệu đến visualization.
 
 ## 📌 Mục tiêu học tập
 
@@ -89,4 +89,5 @@ son-tung-mtp-analytics/
   - Heatmap thời gian upload
   - Mix thể loại content
   - Biểu đồ phân bố thời lượng video
+
 
